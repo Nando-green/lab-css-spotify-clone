@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+    .link-nav {
+        display: inline-block;
+        font-family: "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 150%;
+        padding-left: 50px;
+        margin-right: 30px;
+        text-decoration: #1a1a1a;
+        color: #1a1a1a;
+        font-weight: 50;
+    }
+}
+header {
+    border-bottom: 1px solid;
+    background-color: #fff;
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.image1 {
+    width: 12%;
+}
+.hero-section {
+    height: 600px;
+    background-image: url("../images/landing.jpg");
+    font-family: "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 100%;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.description {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.secundary-title {
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "Nunito", sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #00b172;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 12px;
+}
+
+.file {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+.file-unit {
+    padding: 100px;
+    text-align: center;
+}
+.titles-section {
+    color: #00b172;
+    font-family: "Nunito", sans-serif;
+    font-size: 35px;
+}
+.description-titles {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.image-grid {
+    width: 150px;
+    height: 120px;
+}
+
+.part-secundary-content {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    /* align-items: center;*/
+    gap: 10px;
+    background-size: cover;
+    background-position: center;
+    background-color: #00b172;
+    margin: 50px;
+}
+.image-spotify-white {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 160px;
+}
+
+.paragraph-description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #fff;
+    padding: 150px;
+    font-size: 30px;
+    font-family: "Nunito", sans-serif;
+}
+.title-secundary-part {
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 12px;
+    padding-bottom: 100px;
+}
+.image-spotify-app {
+    /*max-width: 100%;
+      
+    height: auto;*/
+    display: flex;
+
+    width: 600px;
+    height: 1000px;
+    padding: 200px 150px 50px 20px;
+}
